@@ -1,0 +1,38 @@
+// {
+//   "compilerOptions": {
+//     "jsx": "react",
+//     "outDir": "./dist/",
+//     "noImplicitAny": true,
+//     "module": "es6",
+//     "target": "es5",
+//     "allowJs": true,
+//     "allowSyntheticDefaultImports": true,
+//     "moduleResolution": "node",
+//   }
+// }
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "jsx": "react",
+    "module": "esnext",
+    "target": "esnext",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    // "outFile": "../../built/local/tsc.js",
+    // "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    // "noImplicitReturns": true,
+    // "noUnusedLocals": true,
+    // "esModuleInterop": true, // important!
+    // "strictNullChecks": true,
+    // "experimentalDecorators": true,
+    // "noUnusedParameters": true,
+    // "skipLibCheck": true,
+    // "allowUnreachableCode": true,
+    // "allowUnusedLabels": true,
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
